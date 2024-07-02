@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+    <h1>Trivia en tono</h1>
+    <div id="juego">
+        <p id="pregunta"></p>
+        <ul id="respuestas"></ul>
+    </div>
+    <button id="siguiente">Siguiente Pregunta</button>
+    <div>
+        <h2>Agregar una nueva pregunta</h2>
+        <input type="text" id="nueva-pregunta" placeholder="Escribi tu pregunta">
+        <input type="text" id="nueva-respuesta" placeholder="Escribi la respuesta correcta">
+        <button onclick="agregarNuevaPregunta()">Agregar Pregunta</button>
+    </div>
+</body>
+</html>
