@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script defer src="/js/script.js"></script>
+    <title>Trivia en tono</title>
+    <script defer src="./js/script.js"></script>
 </head>
 <body>
-    <h1>Trivia en tono</h1>
+    <h1>Toma nota</h1>
     <div id="juego">
         <p id="pregunta"></p>
         <ul id="respuestas"></ul>
@@ -17,7 +17,22 @@
         <h2>Agregar una nueva pregunta</h2>
         <input type="text" id="nueva-pregunta" placeholder="Escribí tu pregunta">
         <input type="text" id="nueva-respuesta" placeholder="Escribí la respuesta correcta">
-        <button onclick="agregarNuevaPregunta()">Agregar Pregunta</button>
+        <button id="agregar-pregunta">Agregar Pregunta</button>
+    </div>
+    <div>
+        <h2>Editar preguntas</h2>
+        <input type="number" id="indice-pregunta-editar" placeholder="Índice de la pregunta a editar">
+        <input type="text" id="editar-pregunta" placeholder="Editar pregunta">
+        <input type="text" id="editar-respuesta" placeholder="Editar respuesta">
+        <button id="editar-pregunta-boton">Editar Pregunta</button>
+    </div>
+    <div>
+        <button id="vaciar-preguntas">Vaciar Preguntas</button>
+    </div>
+    <div>
+        <h2>Contar preguntas</h2>
+        <button id="contar-preguntas">Contar Preguntas</button>
+        <p id="contador"></p>
     </div>
 </body>
 </html>
