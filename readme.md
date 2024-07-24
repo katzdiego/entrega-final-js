@@ -1,0 +1,1 @@
+El proyecto simula una trivia de preguntas y respuestas sobre música, informando al usuario informe el resultado, incluyendo cantidad de preguntas respondidas, cuáles fueron correctas, puntuación e intentos. Como así también la posibilidad de editar, agregar o vaciar las preguntas generadas.
